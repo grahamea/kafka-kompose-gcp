@@ -13,6 +13,11 @@ sudo yum install epel-release
 
 sudo yum -y install kompose
 
+e.g on GCP / GC Shell
+
+# Linux
+curl -L https://github.com/kubernetes/kompose/releases/download/v1.15.0/kompose-linux-amd64 -o kompose
+
 
 ### Get this repo or download the docker-compose file
 wget https://raw.githubusercontent.com/grahamea/kafka-kompose-gcp/master/docker-compose.yml
